@@ -1,0 +1,78 @@
+/* Footer styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  /* Social media logos styles */
+  .social-media-logos {
+    margin-bottom: 20px;
+    margin-left: 140px; /* Start 40px from the left */
+    max-width: calc(50% - 40px); /* Don't cross the center */
+  }
+  
+  .social-media-logos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align social media logos to the left */
+    flex-wrap: wrap; /* Wrap the logos to the next line if they exceed the max-width */
+  }
+  
+  .social-media-logos li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Font Awesome icon styles */
+  .social-media-logos i {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  /* Footer columns styles */
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 140px; /* Start 40px from the left */
+    max-width: calc(50% - 40px); /* Don't cross the center */
+  }
+  
+  .column {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align column items to the left */
+    flex-wrap: wrap; /* Wrap items to the next line if they exceed the max-width */
+  }
+  
+  .column li {
+    margin-bottom: 10px;
+  }
+  
+  /* Service code button styles */
+  .service-code-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 140px; /* Start 40px from the left */
+    /* max-width: calc(50% - 40px); Don't cross the center */
+    width: 150px;
+  }
+  
+  /* Copyright text styles */
+  .copyright {
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  
